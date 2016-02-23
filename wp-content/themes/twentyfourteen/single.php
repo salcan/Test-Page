@@ -31,6 +31,7 @@ get_header(); ?>
 					}
 				endwhile;
 			?>
+
 		</div><!-- #content -->
 	</div><!-- #primary -->
 

@@ -11,7 +11,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php twentyfourteen_post_thumbnail(); ?>
+	<a href="<?php the_field('external_url')?>"><?php twentyfourteen_post_thumbnail(); ?></a>
 
 	<header class="entry-header">
 		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
